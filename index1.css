@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    font-size: 20px;
+}
+body{
+    margin:0px;
+    padding: 0px;
+}
+header{
+    margin-bottom : 8vh ;
+    text-align: center ;
+    padding-top:2vh ;
+    font-size: 30px;
+    padding-bottom: 20px ;
+    box-shadow: 3px 0px 5px grey;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+.main-container{
+    display:flex ;
+    border:2px solid black;
+    width: 80%; 
+    margin: auto;
+}
+.first-form,.second-form,.all-btns{
+    display: flex ;
+    flex-direction: column;
+    padding:20px ;
+}
+.first-form input, .second-form input {
+    margin-top:2vh ;
+}
+.first-container , .second-container{
+    width: 47%; 
+}
+.first-container{
+    border-right: 2px solid black;
+}
+.second-container {
+    border-left: 2px solid black;
+}
+.all-btns button{
+    margin-bottom: 20px ;
+}
